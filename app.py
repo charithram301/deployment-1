@@ -7,14 +7,18 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
-data_path = r"P587 DATASET.csv"
+data_path = "P587 DATASET.csv"
 
 st.set_page_config(page_title="SARIMA Quick Deploy", layout="wide")
 
 st.title("Stock Price Forecasting with SARIMA")
 st.caption("Predicting future stock movements using time series modeling")
 
-df=pd.read_csv(data_path)
+def load_data(path=data_path):
+    df = pd.read_csv(path)
+    return df
+
+df = load_data()
 
 st.subheader("Data Preview")
 st.caption("Apple stocks")
@@ -80,6 +84,7 @@ st.components.v1.iframe(
        
 
         
+
 
 
 
