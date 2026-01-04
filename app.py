@@ -14,7 +14,7 @@ st.set_page_config(page_title="SARIMA Quick Deploy", layout="wide")
 st.title("Stock Price Forecasting with SARIMA")
 st.caption("Predicting future stock movements using time series modeling")
 
-df = pd.read_csv("P587 DATASET.csv")
+df = pd.read_csv(data_path)
     
 
 
@@ -83,6 +83,7 @@ st.components.v1.iframe(
        
 
         
+
 
 
 
