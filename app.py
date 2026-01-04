@@ -7,7 +7,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
-data_path = "P587_DATASET.csv" 
+data_path = "P587 DATASET.csv" 
 
 st.set_page_config(page_title="SARIMA Quick Deploy", layout="wide")
 
@@ -84,6 +84,7 @@ st.components.v1.iframe(
        
 
         
+
 
 
 
