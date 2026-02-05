@@ -1,38 +1,40 @@
-## Apple stock Price Prediction-30 day forecasting
+# Apple Stock Price Prediction App
 
-## live demo
-streamlit app-https://deployment-ucltcxdclzsmrcke2krama.streamlit.app/
+This project is a machine learning–based web application that predicts Apple (AAPL) stock prices and visualizes trends using an interactive Streamlit interface.
 
-## Project Overview
-This project analyzes historical Apple (AAPL) stock data and predicts the **next 30 days of closing prices** using machine learning.  
-An interactive **Streamlit dashboard** is used to visualize trends and forecasts.
+It is created as a portfolio project to demonstrate an end-to-end data science workflow.
 
-## Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn / Time Series Model
-- Matplotlib / Plotly
-- Streamlit
+---
+
+## Live Demo
+https://deployment-ucltcxdclzsmrcke2krama.streamlit.app/
+
+---
 
 ## Features
-- Historical price trend visualization
-- Interactive dashboard
-- 30-day closing price prediction
-- Comparison of actual vs predicted prices
+- Apple stock price prediction using machine learning
+- Interactive charts and visualizations
+- Simple and user-friendly Streamlit UI
+- End-to-end ML project implementation
 
-## Approach
-1. Data collection and preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature engineering
-4. Model training and evaluation
-5. Forecasting next 30 days
-6. Deployment using Streamlit
+---
 
-## Results
-- Successfully forecasted next 30 days of AAPL closing prices
-- Visualized predictions using interactive charts
-- Model evaluated using RMSE / MAE
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Matplotlib
+- ARIMA,SARIMA,Random Forest,XG-Boost
 
-## Conclusion
-This project demonstrates end-to-end data science skills including analysis,
-modeling, visualization, and deployment.
+---
+
+## Project Structure
+deployment-1/
+│── app.py            # Main Streamlit application
+│── model.py          # Machine learning model logic
+│── data/             # Dataset files used for training
+│── requirements.txt  # List of Python dependencies
+│── README.md         # Project documentation
+
