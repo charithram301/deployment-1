@@ -33,8 +33,12 @@ https://deployment-ucltcxdclzsmrcke2krama.streamlit.app/
 ## Project Structure
 deployment-1/
 │── app.py            # Main Streamlit application
-│── model.py          # Machine learning model logic
-│── data/             # Dataset files used for training
+
+│── STOCK_ANALYSIS(3).ipynb          # Machine learning model logic
+
+│── P587 DATASET/             # Dataset files used for training
+
 │── requirements.txt  # List of Python dependencies
+
 │── README.md         # Project documentation
 
